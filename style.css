@@ -42,12 +42,14 @@ main img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: space-between;
 }
 
 .item {
     flex: 1;
     margin: 10px;
     align-self: center;
+    width: 100%;
 }
 
 .item-double {
@@ -112,7 +114,8 @@ form label {
 form select,
 form input {
     margin: 10px;
-    width: 150px;
+    width: 100%;
+    max-width: 140px;
 }
 
 form button {
@@ -121,8 +124,8 @@ form button {
     color: #fff;
     font-size: 24px;
     padding: 15px;
-    width: 100%;
-    margin: 10px;
+    margin: auto;
+    width: 90%;
 }
 
 
@@ -159,6 +162,7 @@ footer p {
     form select,
     form input {
         margin: 0px;
+        width: 100%;
     }
     .logo {
         text-align: left;
@@ -171,32 +175,3 @@ footer p {
         justify-content: flex-end;
     }
 }
-
-
-/* mobile styles here
-
-@media only screen and (min-width: 350px) {
-    body {
-        background-color: #000;
-    }
-}
-
-
-/*tablet styles here*/
-
-
-/* @media only screen and (min-width: 550px) {
-    body {
-        background-color: steelblue;
-    }
-}
-
-
-/*desktop styles here*/
-
-
-/* @media only screen and (min-width: 800px) {
-    body {
-        background-color: purple;
-    }
-} */
