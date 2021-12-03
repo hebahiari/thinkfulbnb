@@ -166,12 +166,9 @@ footer p {
     }
     .logo {
         text-align: left;
-        font-size: 40px;
+        font-size: 30px;
     }
     header {
         padding: 0;
-    }
-    header nav ul {
-        justify-content: flex-end;
     }
 }
