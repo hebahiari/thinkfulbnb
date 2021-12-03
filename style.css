@@ -112,7 +112,7 @@ form label {
 form select,
 form input {
     margin: 10px;
-    width: 180px;
+    width: 150px;
 }
 
 form button {
@@ -160,4 +160,43 @@ footer p {
     form input {
         margin: 0px;
     }
+    .logo {
+        text-align: left;
+        font-size: 40px;
+    }
+    header {
+        padding: 0;
+    }
+    header nav ul {
+        justify-content: flex-end;
+    }
 }
+
+
+/* mobile styles here
+
+@media only screen and (min-width: 350px) {
+    body {
+        background-color: #000;
+    }
+}
+
+
+/*tablet styles here*/
+
+
+/* @media only screen and (min-width: 550px) {
+    body {
+        background-color: steelblue;
+    }
+}
+
+
+/*desktop styles here*/
+
+
+/* @media only screen and (min-width: 800px) {
+    body {
+        background-color: purple;
+    }
+} */
