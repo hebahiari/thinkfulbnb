@@ -1,6 +1,11 @@
 /* -------  General Styles ------- */
 
+html,
 body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
     font-family: "Lato", sans-serif;
 }
 
@@ -144,10 +149,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
-    .group {
-        flex-direction: row;
-    }
+@media all and (min-width: 700px) {
     form {
         display: flex;
         justify-content: space-evenly;
@@ -163,6 +165,12 @@ footer p {
     form input {
         margin: 0px;
         width: 100%;
+    }
+}
+
+@media all and (min-width: 480px) {
+    .group {
+        flex-direction: row;
     }
     .logo {
         text-align: left;
