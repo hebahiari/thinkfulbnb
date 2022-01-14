@@ -50,13 +50,6 @@ main img {
     align-content: space-between;
 }
 
-.input_group {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-between;
-}
-
 .item {
     flex: 1;
     margin: 10px;
@@ -109,9 +102,15 @@ header nav ul li a:hover {
 
 /* -------  Search Form ------- */
 
+
+/* .form-group {
+    display: flex;
+    flex: 1;
+} */
+
 form {
     border: 2px solid #ff385c;
-    margin: 20px
+    margin: 20px;
 }
 
 form div {
@@ -122,6 +121,7 @@ form div {
 form label {
     margin: 10px;
     font-weight: bold;
+    flex: 1;
 }
 
 form select,
@@ -129,6 +129,7 @@ form input {
     margin: 10px;
     width: 100%;
     max-width: 140px;
+    flex: 2;
 }
 
 form button {
@@ -137,8 +138,9 @@ form button {
     color: #fff;
     font-size: 24px;
     padding: 15px;
-    margin: auto;
+    margin: 10px;
     width: 95%;
+    flex: 1
 }
 
 
@@ -157,7 +159,8 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 700px) {
+
+/* @media all and (min-width: 700px) {
     .input_group {
         flex-direction: row;
     }
@@ -180,15 +183,31 @@ footer p {
     .logo {
         font-size: 72px;
     }
-}
+} */
+
+
+/* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
     .group {
         flex-direction: row;
     }
-    /* .input_group {
+    form {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    form div {
         flex-direction: column;
-    } */
+        justify-content: center;
+    }
+    form label {
+        margin: 0;
+    }
+    form select,
+    form input {
+        margin: 0px;
+        width: 100%;
+    }
     .logo {
         text-align: left;
         font-size: 30px;
