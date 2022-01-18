@@ -2,10 +2,10 @@
 
 html,
 body {
-    /* width: 100vw;
+    width: 100vw;
     margin: 0;
-    padding: 0; */
-    /* overflow-x: hidden; */
+    padding: 0;
+    overflow-x: hidden;
     font-family: "Lato", sans-serif;
 }
 
@@ -126,7 +126,6 @@ form label {
 
 form select,
 form input {
-    min-width: 0px;
     margin: 10px;
     width: 100%;
     max-width: 140px;
