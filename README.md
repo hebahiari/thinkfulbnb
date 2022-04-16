@@ -16,12 +16,3 @@ The UX designer provided you with the following user interface mockups:
 
 ![](images/Thinkfulbnb-desktop.png)
 
-### Existing files
-
-| File         | Description                                                             |
-| ------------ | ----------------------------------------------------------------------- |
-| `images/`    | A folder containing all the images used for the design.                 |
-| `index.html` | The starter HTML file. You will need to add your solution to this file. |
-| `style.css`  | The starter css file. You will need to add your solution to this file.  |
-
-You're encouraged to spend some time studying the provided files.
